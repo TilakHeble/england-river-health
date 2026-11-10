@@ -44,11 +44,17 @@ st.set_page_config(page_title="England river health", page_icon="🌊", layout="
 
 
 @st.cache_data
+def _read(name, mtime, **kw):
+    # mtime is part of the cache key, so a redeploy with new tables never serves stale data
+    f = T / name
+    return pd.read_parquet(f) if name.endswith(".parquet") else pd.read_csv(f, **kw)
+
+
 def load(name, **kw):
     f = T / name
     if not f.exists():
         return None
-    return pd.read_parquet(f) if name.endswith(".parquet") else pd.read_csv(f, **kw)
+    return _read(name, f.stat().st_mtime, **kw)
 
 
 def pick_target(label, key, options=TARGETS):
