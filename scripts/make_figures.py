@@ -277,6 +277,8 @@ def app_table(t, g):
         sc = pd.read_parquet(T / "scenario_per_wb.parquet")
         sc = sc[sc["target"] == tg].set_index("water_body_id")
         a[f"gain_nospill_{tg}"] = a["water_body_id"].map(sc["gain"])
+        a[f"pfit_{tg}"] = a["water_body_id"].map(sc["p_base"])
+        a[f"pnospill_{tg}"] = a["water_body_id"].map(sc["p_no_spills"])
     a.to_parquet(T / "app_rivers.parquet", index=False)
     print("wrote app_rivers.parquet", a.shape)
 
