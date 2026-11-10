@@ -1,0 +1,19 @@
+target,scenario,cut,expected_good_base,expected_good,extra_good_wbs,wbs_with_overflows
+eco_good,spills -25%,0.25,568.5039,573.0981,4.5942,2629.0
+eco_good,spills -50%,0.5,568.5039,580.4542,11.9503,2629.0
+eco_good,spills -75%,0.75,568.5039,589.3638,20.8599,2629.0
+eco_good,spills -100%,1.0,568.5039,621.0156,52.5117,2629.0
+eco_good,urban land -50% (yardstick),,568.5039,640.8337,72.3298,
+eco_good,sewage works effluent -50% (yardstick),,568.5039,580.2998,11.7959,
+inv_good,spills -25%,0.25,2856.4593,2870.6773,14.218,2629.0
+inv_good,spills -50%,0.5,2856.4593,2887.3637,30.9044,2629.0
+inv_good,spills -75%,0.75,2856.4593,2900.8101,44.3508,2629.0
+inv_good,spills -100%,1.0,2856.4593,2916.3528,59.8935,2629.0
+inv_good,urban land -50% (yardstick),,2856.4593,3029.4903,173.031,
+inv_good,sewage works effluent -50% (yardstick),,2856.4593,2866.1765,9.7172,
+phos_good,spills -25%,0.25,1822.2257,1830.7321,8.5065,2629.0
+phos_good,spills -50%,0.5,1822.2257,1844.9284,22.7027,2629.0
+phos_good,spills -75%,0.75,1822.2257,1864.3782,42.1526,2629.0
+phos_good,spills -100%,1.0,1822.2257,1930.0408,107.8151,2629.0
+phos_good,urban land -50% (yardstick),,1822.2257,2008.8878,186.6621,
+phos_good,sewage works effluent -50% (yardstick),,1822.2257,1885.8783,63.6526,

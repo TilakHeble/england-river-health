@@ -1,0 +1,4 @@
+model,qwk,qwk_expected,accuracy,mae_expected,log_loss
+multiclass,0.4144,0.4072,0.4791,0.6691,1.2101
+frank_hall_monotone,0.4387,0.4335,0.4813,0.6685,1.2275
+prior_only,0.0,0.0,0.4255,0.7801,1.2719

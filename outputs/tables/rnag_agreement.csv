@@ -1,0 +1,16 @@
+target,group,rnag_flag,n_failing,flag_rate,auc
+eco_good,Storm overflows,rnag_overflow,3203,0.1527,0.7108
+eco_good,Sewage works,rnag_sewage,3203,0.5589,0.7557
+eco_good,Arable,rnag_agriculture,3203,0.7053,0.6929
+eco_good,Grassland,rnag_agriculture,3203,0.7053,0.5075
+eco_good,Urban land,rnag_urban,3203,0.2904,0.8561
+inv_good,Storm overflows,rnag_overflow,864,0.2882,0.7202
+inv_good,Sewage works,rnag_sewage,864,0.6528,0.7541
+inv_good,Arable,rnag_agriculture,864,0.6956,0.6152
+inv_good,Grassland,rnag_agriculture,864,0.6956,0.4779
+inv_good,Urban land,rnag_urban,864,0.5023,0.8783
+phos_good,Storm overflows,rnag_overflow,1911,0.2004,0.6376
+phos_good,Sewage works,rnag_sewage,1911,0.7582,0.7621
+phos_good,Arable,rnag_agriculture,1911,0.8346,0.6563
+phos_good,Grassland,rnag_agriculture,1911,0.8346,0.5707
+phos_good,Urban land,rnag_urban,1911,0.3543,0.8359

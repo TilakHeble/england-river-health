@@ -1,0 +1,10 @@
+[project]
+name = "england-river-health"
+version = "1.0.0"
+description = "What drives the ecological health of England's rivers? Tree-based models on storm overflow, sewage works, land cover and WFD data"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+filterwarnings = ["ignore::RuntimeWarning", "ignore::UserWarning", "ignore::FutureWarning"]

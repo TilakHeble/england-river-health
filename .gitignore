@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+.DS_Store
+# raw downloads (~2.5 GB, 9 GB unzipped) are rebuilt by `python scripts/run_pipeline.py --data`
+data/raw/
+catboost_info/

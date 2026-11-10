@@ -1,0 +1,10 @@
+target,model,roc_auc,pr_auc,log_loss,brier,base_rate
+eco_good,logistic,0.8054,0.4144,0.3439,0.1054,0.1504
+eco_good,random_forest,0.7943,0.3814,0.3504,0.1079,0.1504
+eco_good,lightgbm_tuned_mono,0.8032,0.4101,0.344,0.1055,0.1504
+inv_good,logistic,0.7951,0.9095,0.4377,0.1384,0.7588
+inv_good,random_forest,0.8002,0.9091,0.4379,0.1384,0.7588
+inv_good,lightgbm_tuned_mono,0.804,0.9089,0.4306,0.1359,0.7588
+phos_good,logistic,0.8057,0.8158,0.5322,0.1786,0.4843
+phos_good,random_forest,0.8185,0.8286,0.5164,0.1727,0.4843
+phos_good,lightgbm_tuned_mono,0.8174,0.8296,0.5142,0.1724,0.4843

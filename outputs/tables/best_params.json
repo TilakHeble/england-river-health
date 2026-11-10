@@ -1,0 +1,29 @@
+{
+  "eco_good": {
+    "n_estimators": 450,
+    "learning_rate": 0.010365111825465886,
+    "num_leaves": 42,
+    "min_child_samples": 25,
+    "subsample": 0.6601717776447111,
+    "colsample_bytree": 0.3935362910953001,
+    "reg_lambda": 12.313577251618778
+  },
+  "inv_good": {
+    "n_estimators": 400,
+    "learning_rate": 0.011154105948642122,
+    "num_leaves": 9,
+    "min_child_samples": 13,
+    "subsample": 0.540059121415949,
+    "colsample_bytree": 0.7683900858646981,
+    "reg_lambda": 3.543940439820089
+  },
+  "phos_good": {
+    "n_estimators": 300,
+    "learning_rate": 0.011070522896791076,
+    "num_leaves": 46,
+    "min_child_samples": 28,
+    "subsample": 0.5143893181775568,
+    "colsample_bytree": 0.790556956578515,
+    "reg_lambda": 1.4132380114215217
+  }
+}

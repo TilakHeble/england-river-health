@@ -1,0 +1,16 @@
+check,passed,detail
+EDM 2023 totals match EA published figures,True,"spills 464,056 vs 464,056; hours 3,606,170 vs 3,606,170"
+EDM 2024 totals match EA published figures,True,"spills 450,398 vs 450,398; hours 3,614,428 vs 3,614,428"
+EDM 2025 totals match EA published figures,True,"spills 292,119 vs 292,119; hours 1,878,240 vs 1,878,240"
+inferred network: upstream areas within 25% of NRFA gauged areas (England-only data; Welsh headwaters missing),True,"Trent at North Muskham 8,240/8,231 km2; Tyne at Bywell 2,207/2,176 km2; Thames at Kingston 9,001/9,948 km2; Eden at Sheepmount 2,270/2,287 km2; Nene at Orton 1,576/1,634 km2"
+river network is acyclic,True,"3772 links: {'line': 3171, 'sea': 509, 'polygon': 71, 'cycle_dropped': 21}"
+storm overflows linked to a river water body (rest: coastal/estuary or Wales),True,"11,952 of 14,285 2024 overflows (84%)"
+chemistry linkage: measured orthophosphate vs EA phosphate class (Spearman < -0.6),True,rho = -0.79 over 2729 water bodies
+land cover sample: every catchment sampled (>= 8 points) and < 2% of points unmapped,True,"points per catchment: min 9, median 371; unmapped 0.5%"
+one row per WFD Cycle 4 river water body,True,3772 rows
+spatial folds: no management catchment in both train and test,True,"90 catchments, 5 folds"
+test labels never used (flipped fold-0 labels),True,max change in fold-0 predictions 0.0e+00
+eco_good: more pollution never raises P(good); removing spills never lowers it,True,violations: 0; min change on removing spills 0.00e+00
+inv_good: more pollution never raises P(good); removing spills never lowers it,True,violations: 0; min change on removing spills 0.00e+00
+phos_good: more pollution never raises P(good); removing spills never lowers it,True,violations: 0; min change on removing spills 0.00e+00
+phosphate champion calibrated out of fold (max decile gap < 0.10),True,max |predicted - observed| across deciles 0.038
